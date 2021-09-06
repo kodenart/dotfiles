@@ -1,0 +1,1 @@
+/home/kodenart/.config/nvim/init.vim
