@@ -1,1 +1,0 @@
-/home/kodenart/.bash_aliases
