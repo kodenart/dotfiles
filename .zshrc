@@ -1,4 +1,4 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+#Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
@@ -187,3 +187,5 @@ alias q="exit"
 alias cop="rsync -ahvP"
 alias mov="rsync -ahvP --remove-sent-files"
 alias v="nvim"
+alias z="zathura"
+alias attDotfiles="cat ~/.config/i3/config > ~/dotfiles/i3/config; cat ~/.config/ranger/rc.conf > ~/dotfiles/ranger/rc.conf; cat ~/.config/nvim/init.vim > ~/dotfiles/nvim/init.vim; cat ~/.config/kitty/kitty.conf > ~/dotfiles/kitty/kitty.conf; cat ~/.zshrc > ~/dotfiles/.zshrc"

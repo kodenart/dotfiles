@@ -1,5 +1,5 @@
 set nu rnu
-set clipboard+=unnamedplus
+set clipboard=unnamedplus
 
 call plug#begin()
 
