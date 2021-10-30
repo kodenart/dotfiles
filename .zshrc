@@ -186,7 +186,7 @@ MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 #ALIAS LIST
 
 
-
+alias sudoes="sudo -E -s"
 alias downloadM4a="youtube-dl -f 'bestaudio[ext=m4a]'"
 alias music="ncmpcpp"
 alias q="exit"
