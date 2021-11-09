@@ -33,7 +33,7 @@ bindsym $mod+Return exec kitty
 bindsym $mod+Shift+q kill
 
 #international keyboard
-exec kitty -e setxkbmap -layout us -variant intl
+exec kitty -e  setxkbmap us altgr-intl  
 
 # start program launcher
 bindsym $mod+d exec rofi -show run
