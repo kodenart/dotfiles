@@ -41,6 +41,8 @@ Plug 'morhetz/gruvbox'
 
 Plug 'vim-airline/vim-airline-themes'
 
+" Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
 call plug#end()
 
 
@@ -138,7 +140,7 @@ let g:indentguides_tabchar = '▏'
 
 "Mapeamento de Keybinds
 			"Salvar
-nnoremap <C-s> :w!<CR>
+"nnoremap <C-s> :w!<CR>
 			"Sair
 "nnoremap <C-q> :qa<CR>
 			"Mudando de Buffer
@@ -150,13 +152,13 @@ noremap <silent> <C-Up> :m -2<CR>
       "Copiar para clipboard
 "nnoremap <C-c> "+y<CR>
       "Abrir o navegador de arquivos
-nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap t :NERDTreeToggle<CR>
       "Comentador
 nnoremap ,v :call nerdcommenter#Comment(0,"toggle")<CR>
 vnoremap ,v :call nerdcommenter#Comment(0,"toggle")<CR>
-map ,c <plug>NERDCommenterSexy
+"map ,c <plug>NERDCommenterSexy
 
-
+inoremap jk <Esc>
 
 " Trigger configuration. You need to change this to something other than <tab> if you use one of the following:
 " - https://github.com/Valloric/YouCompleteMe

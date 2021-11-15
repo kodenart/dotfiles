@@ -1,0 +1,15 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "workbench.startupEditor": "none",
+    "editor.fontSize": 18,
+    "editor.tabCompletion": "on",
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "terminal.external.linuxExec": "kitty",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "$HOME/.vimrc",
+    "vim.useSystemClipboard": true,
+    "explorer.confirmDragAndDrop": false
+}
