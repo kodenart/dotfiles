@@ -11,5 +11,14 @@
     "vim.vimrc.enable": true,
     "vim.vimrc.path": "$HOME/.vimrc",
     "vim.useSystemClipboard": true,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "editor.tabSize": 2,
+    "eslint.alwaysShowStatus": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#283636",
+        "statusBar.noFolderBackground": "#283636",
+        "statusBar.debuggingBackground": "#283636"
+    },
+    "problems.showCurrentInStatus": true,
+    "window.zoomLevel": 0.15
 }

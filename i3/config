@@ -66,13 +66,10 @@ bindsym $mod+F9 exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 # Start Applications
 #bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+F2 exec firefox
-#bindsym $mod+F3 exec pcmanfm
-bindsym $mod+F3 exec kitty -e 'ranger'
+bindsym $mod+F2 exec --no-startup-id firefox
+bindsym $mod+F3 exec --no-startup-id code
 #bindsym $mod+Shift+F3 exec pcmanfm_pkexec
-bindsym $mod+Shift+F3 exec pcmanfm
-bindsym $mod+F5 exec kitty -e 'ncmpcpp'
-bindsym $mod+t exec --no-startup-id pkill picom
+#bindsym $mod+t exec --no-startup-id pkill picom
 bindsym $mod+Ctrl+t exec --no-startup-id picom -b
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
 bindsym $mod+Print exec --no-startup-id escrotum -s -C
@@ -143,11 +140,11 @@ bindsym $mod+Shift+s sticky toggle
 bindsym $mod+a focus parent
 
 # move the currently focused window to the scratchpad
-#bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+Shift+minus move scratchpad
 
 # Show the next scratchpad window or hide the focused scratchpad window.
 # If there are multiple scratchpad windows, this command cycles through them.
-#bindsym $mod+minus scratchpad show
+bindsym $mod+minus scratchpad show
 
 #navigate workspaces next / previous
 bindsym $mod+Ctrl+L workspace next
@@ -200,9 +197,9 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
 # Open applications on specific workspaces
 #assign [title="gimp"] $ws7
-#assign [title="firefox"] $ws5
-#assign [title="ranger"] $ws3
-#assign [title="lightcord"] $ws6
+assign [class="firefox"] $ws2
+assign [class="code"] $ws3
+#assign [title="ranger"] $ws4
 #assign [title="vlc"] $ws8
 
 
