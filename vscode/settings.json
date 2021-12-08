@@ -20,5 +20,6 @@
         "statusBar.debuggingBackground": "#283636"
     },
     "problems.showCurrentInStatus": true,
-    "window.zoomLevel": 0.15
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true
 }
