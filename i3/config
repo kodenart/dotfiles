@@ -307,8 +307,8 @@ exec_always --no-startup-id wal -R
 #Como só uso esse tema da polybar, assim fica mais sucinto.
 #exec_always ~/.config/polybar/blocks/launch.sh
 
-bindsym $mod+P exec --no-startup-id ~/.config/polybar/launch.sh --blocks
-bindsym $mod+Shift+P exec --no-startup-id killall polybar
+bindsym $mod+p exec --no-startup-id ~/.config/polybar/launch.sh --blocks
+bindsym $mod+Shift+p exec --no-startup-id killall polybar
 
 
 #exec_always --no-startup-id ~/.config/polybar/shapes/scripts/pywal.sh ~/Pictures/wallpaper/wallpaper.png
