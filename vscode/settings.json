@@ -1,4 +1,5 @@
 {
+    "workbench.tree.indent": 20,
     "window.menuBarVisibility": "toggle",
     "workbench.colorTheme": "Gruvbox Material Dark",
     "workbench.startupEditor": "none",
