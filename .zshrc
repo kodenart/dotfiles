@@ -195,3 +195,7 @@ alias mov="rsync -ahvP --remove-sent-files"
 alias v="nvim"
 alias z="zathura"
 alias attDotfiles="cat ~/.config/i3/config > ~/dotfiles/i3/config; cat ~/.config/ranger/rc.conf > ~/dotfiles/ranger/rc.conf; cat ~/.config/nvim/init.vim > ~/dotfiles/nvim/init.vim; cat ~/.config/kitty/kitty.conf > ~/dotfiles/kitty/kitty.conf; cat ~/.zshrc > ~/dotfiles/.zshrc; cat ~/.config/Code\ -\ OSS/User/settings.json > ~/dotfiles/vscode/settings.json; cat ~/.config/Code\ -\ OSS/User/keybindings.json > ~/dotfiles/vscode/keybindings.json; cat ~/.config/polybar/blocks/modules.ini > ~/dotfiles/polybar/blocks/modules.ini; cat ~/.config/polybar/blocks/config.ini > ~/dotfiles/polybar/blocks/config.ini"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

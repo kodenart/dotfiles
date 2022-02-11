@@ -22,5 +22,11 @@
     },
     "problems.showCurrentInStatus": true,
     "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.donotVerifyTags": true
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.activityBar.visible": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": ["javascript"],
+
 }
