@@ -66,8 +66,11 @@ bindsym $mod+F9 exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 # Start Applications
 #bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+F2 exec --no-startup-id firefox
+# // see u space cowboy
+#bindsym $mod+F2 exec --no-startup-id firefox
+bindsym $mod+F2 exec --no-startup-id google-chrome-stable
 bindsym $mod+F3 exec --no-startup-id code
+bindsym $mod+F5 exec --no-startup-id kitty -e 'ncmpcpp'
 #bindsym $mod+Shift+F3 exec pcmanfm_pkexec
 #bindsym $mod+t exec --no-startup-id pkill picom
 bindsym $mod+Ctrl+t exec --no-startup-id picom -b
