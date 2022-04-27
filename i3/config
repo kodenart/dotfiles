@@ -78,7 +78,7 @@ bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart du
 bindsym $mod+Print exec --no-startup-id escrotum -s -C
 bindsym $mod+Shift+Print exec --no-startup-id escrotum -s
 bindsym Print exec --no-startup-id escrotum 
-#bindsym $mod+F6 exec --no-startup-id escrotum -r
+bindsym $mod+F6 exec --no-startup-id escrotum -r
 # bindsym $mod+Print --release exec --no-startup-id i3-scrot -s
 # bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
