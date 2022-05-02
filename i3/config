@@ -310,7 +310,7 @@ exec_always --no-startup-id wal -R
 #Como só uso esse tema da polybar, assim fica mais sucinto.
 #exec_always ~/.config/polybar/blocks/launch.sh
 
-bindsym $mod+p exec --no-startup-id ~/.config/polybar/launch.sh --blocks
+bindsym $mod+p exec --no-startup-id ~/.config/polybar/launch.sh --shapes
 bindsym $mod+Shift+p exec --no-startup-id killall polybar
 
 
