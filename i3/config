@@ -56,8 +56,8 @@ bindsym $mod+Ctrl+m exec pavucontrol
 # Screen brightness control
 
 
-bindsym $mod+F12 exec backlight_control +10
-bindsym $mod+F11 exec backlight_control -10 
+bindsym $mod+F12 exec --no-startup-id backlight_control +10
+bindsym $mod+F11 exec --no-startup-id backlight_control -10 
 
 # Controle de volume.
 bindsym $mod+F8 exec pactl set-sink-volume @DEFAULT_SINK@ +1000
