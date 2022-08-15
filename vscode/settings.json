@@ -1,6 +1,5 @@
 {
     "workbench.tree.indent": 20,
-    "window.menuBarVisibility": "toggle",
     "workbench.colorTheme": "Gruvbox Material Dark",
     "workbench.startupEditor": "none",
     "editor.fontSize": 18,
@@ -25,8 +24,21 @@
     "liveServer.settings.donotVerifyTags": true,
     "workbench.activityBar.visible": false,
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+    // For ESLint
+    "source.fixAll.eslint": true,
+    // For TSLint
+    "source.fixAll.tslint": true,
+    // For Stylelint
+    "source.fixAll.stylelint": true
     },
-    "eslint.validate": ["javascript"],
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "gruvboxMaterial.lightContrast": "soft",
+    "gruvboxMaterial.lightWorkbench": "high-contrast",
+    "window.menuBarVisibility": "toggle"
 
 }

@@ -194,7 +194,7 @@ alias cop="rsync -ahvP"
 alias mov="rsync -ahvP --remove-sent-files"
 alias v="nvim"
 alias z="zathura"
-alias attDotfiles="cat ~/.config/i3/config > ~/dotfiles/i3/config; cat ~/.config/ranger/rc.conf > ~/dotfiles/ranger/rc.conf; cat ~/.config/nvim/init.vim > ~/dotfiles/nvim/init.vim; cat ~/.config/kitty/kitty.conf > ~/dotfiles/kitty/kitty.conf; cat ~/.zshrc > ~/dotfiles/.zshrc; cat ~/.config/Code\ -\ OSS/User/settings.json > ~/dotfiles/vscode/settings.json; cat ~/.config/Code\ -\ OSS/User/keybindings.json > ~/dotfiles/vscode/keybindings.json; cat ~/.config/polybar/blocks/modules.ini > ~/dotfiles/polybar/blocks/modules.ini; cat ~/.config/polybar/blocks/config.ini > ~/dotfiles/polybar/blocks/config.ini"
+alias attDotfiles="cat ~/.config/i3/config > ~/dotfiles/i3/config; cat ~/.config/ranger/rc.conf > ~/dotfiles/ranger/rc.conf; cat ~/.config/nvim/init.vim > ~/dotfiles/nvim/init.vim; cat ~/.config/kitty/kitty.conf > ~/dotfiles/kitty/kitty.conf; cat ~/.zshrc > ~/dotfiles/.zshrc; cat ~/.config/Code/User/settings.json > ~/dotfiles/vscode/settings.json; cat ~/.config/Code/User/keybindings.json > ~/dotfiles/vscode/keybindings.json; cat ~/.config/polybar/blocks/modules.ini > ~/dotfiles/polybar/blocks/modules.ini; cat ~/.config/polybar/blocks/config.ini > ~/dotfiles/polybar/blocks/config.ini"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

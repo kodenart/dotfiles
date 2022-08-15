@@ -14,5 +14,9 @@
         "key": "ctrl+d",
         "command": "deleteFile",
         "when": "explorerViewletFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+d",
+        "command": "workbench.view.extension.dockerView"
     }
 ]
