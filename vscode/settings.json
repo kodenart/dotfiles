@@ -20,8 +20,6 @@
         "statusBar.debuggingBackground": "#283636"
     },
     "problems.showCurrentInStatus": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.donotVerifyTags": true,
     "workbench.activityBar.visible": false,
     "editor.codeActionsOnSave": {
     // For ESLint
@@ -37,8 +35,11 @@
         "typescript",
         "typescriptreact"
     ],
-    "gruvboxMaterial.lightContrast": "soft",
-    "gruvboxMaterial.lightWorkbench": "high-contrast",
-    "window.menuBarVisibility": "toggle"
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "omnisharp.enableMsBuildLoadProjectsOnDemand": true,
+    "omnisharp.enableRoslynAnalyzers": true,
+    "window.menuBarVisibility": "toggle",
 
 }
